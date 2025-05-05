@@ -20,7 +20,7 @@ This guide walks through:
 
 ##  Prerequisites
 
-- Git & GitHub account
+- Git and GitHub account
 - AWS account
 - [Terraform](https://developer.hashicorp.com/terraform/downloads)
 - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
@@ -32,7 +32,7 @@ This guide walks through:
 
 ##  Project Setup
 
-### 1. Authentication & Repository Configuration
+### 1. Authentication and Repository Configuration
 - Generate SSH key pairs for secure GitHub access
 - Add the **public key** to my GitHub profile
 - Create a GitHub repository and clone it
@@ -44,7 +44,7 @@ This guide walks through:
 - Create:
   - An **S3 bucket** for Terraform state
   - A **DynamoDB table** for state locking
-- Add Terraform code to your repository
+- Add Terraform code to your repository ( I use the same terraform code I create in the project "Host-a-Dynamic-Web-App-on-AWS-with-Terraform-Docker-Amazon-ECR-and-ECS")
 - Create a `terraform.tfvars` file with values
 - Register a domain name in **Route 53**
 - Update my Terraform backend with S3 and DynamoDB info
@@ -78,7 +78,7 @@ This guide walks through:
 
 ### Application Code
 - Create a separate repository for my application
-- Add a `Dockerfile` and any supporting code (`AppServiceProvider.php`, etc.)
+- Add a `Dockerfile` and any supporting code 
 
 ### GitHub Actions Jobs
 - Build Docker image and push to **Amazon ECR**
@@ -109,7 +109,7 @@ This guide walks through:
 - End-to-end CI/CD with GitHub Actions
 - Fully automated infrastructure with Terraform
 - Secure secrets management with AWS Secrets Manager
-- Immutable infrastructure practices via Docker & AMI builds
+- Immutable infrastructure practices via Docker and AMI builds
 - Scalable, production-ready deployments using ECS Fargate
 
 ---
