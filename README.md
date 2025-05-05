@@ -1,7 +1,4 @@
-# Deploy-Dynamic-Web-Apps-on-AWS-using-CI/CD-Pipelines-and-GitHub-Actions
----
 
-```markdown
 # Deploy Dynamic Web Apps on AWS using CI/CD Pipelines and GitHub Actions
 
 This project demonstrates how to deploy a scalable, containerized web application on AWS using **Terraform**, **GitHub Actions**, **Docker**, and a CI/CD pipeline. It automates the full deployment lifecycle—from infrastructure provisioning to container builds and database migrations.
